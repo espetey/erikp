@@ -18,6 +18,57 @@
 </head>
 
 <body>
+    <div class="container">
+        <div class="content">
+            <span class="title">Erik Peterson</span>
+        </div>
+    </div>
 </body>
+
+<script>
+    function getBgColor(hour) {
+        switch (hour) {
+            case 1:
+            case 24:
+                return '#3a3a3a';
+            case 2:
+            case 23:
+                return '#330096';
+            case 3:
+            case 22:
+                return '#003c96';
+            case 4:
+            case 21:
+                return '#007396';
+            case 5:
+            case 20:
+                return '#00967a';
+            case 6:
+            case 19:
+                return '#009635';
+            case 7:
+            case 18:
+                return '#789600';
+            case 8:
+            case 17:
+                return '#d07909';
+            case 9:
+            case 16:
+                return '#967600';
+            case 10:
+            case 15:
+                return '#960076';
+            case 11:
+            case 14:
+                return '#960000';
+            case 12:
+            case 13:
+            default:
+                return '#efff00';
+        }
+    }
+    var date = new Date();
+    document.body.style.backgroundColor = getBgColor(date.getHours());
+</script>
 
 </html>
