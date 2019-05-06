@@ -23,8 +23,6 @@ body {
   border-radius: 50%;
   height: 50vw;
   width: 50vw;
-  max-width: 200px;
-  max-height: 200px;
 }
 
 .container > .content {
