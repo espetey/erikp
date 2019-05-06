@@ -21,8 +21,8 @@ body {
   background-color: #000;
   color: #fff;
   border-radius: 50%;
-  height: 50vw;
-  width: 50vw;
+  height: 30vw;
+  width: 30vw;
 }
 
 .container > .content {
@@ -30,6 +30,6 @@ body {
 }
 
 .title {
-  font-size: 4vw;
+  font-size: 2vw;
   font-weight: 800;
 }
