@@ -1,13 +1,15 @@
 body {
   margin: 0 auto;
   /* background-color: #f1f0ef; */
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 a {
   color: #0600ff;
+  text-decoration: none;
 }
 
 a:hover {
@@ -49,8 +51,7 @@ main {
   padding-top: 3.4rem;
 }
 
-h1, h2 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Arial, sans-serif;
+h1, h2, h3 {
 }
 
 h1 {
