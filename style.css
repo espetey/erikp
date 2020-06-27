@@ -48,11 +48,11 @@ nav>div {
 main {
   margin: auto;
   max-width: 640px;
-  padding-top: 3.4rem;
+  padding: 3.4rem 1rem;
 }
 
-h1, h2, h3 {
-}
+/* h1, h2, h3 {
+} */
 
 h1 {
   font-size: 1.4em;
